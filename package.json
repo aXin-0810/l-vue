@@ -4,6 +4,8 @@
   "description": "vue项目初始框架",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack-dev-server --open --config ./config/dev.config.js",
+    "build": "webpack --config ./config/prd.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,24 @@
   "bugs": {
     "url": "https://github.com/aXin-0810/l-vue/issues"
   },
-  "homepage": "https://github.com/aXin-0810/l-vue#readme"
+  "homepage": "https://github.com/aXin-0810/l-vue#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.0.0",
+    "url-loader": "^4.1.1",
+    "vue-loader": "^15.9.6",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^5.20.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "vue": "^2.6.12"
+  }
 }
