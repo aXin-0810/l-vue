@@ -1,0 +1,19 @@
+{
+  "name": "l-vue",
+  "version": "1.0.0",
+  "description": "vue项目初始框架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aXin-0810/l-vue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aXin-0810/l-vue/issues"
+  },
+  "homepage": "https://github.com/aXin-0810/l-vue#readme"
+}
