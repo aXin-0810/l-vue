@@ -1,52 +1,28 @@
 <template>
   <div id="app">
-    开始疯狂编码
+    <img alt="Vue logo" src="./assets/logo.png">
+    <HelloWorld msg="疯狂打代码"/>
   </div>
 </template>
 
 <script>
+import HelloWorld from './components/HelloWorld.vue';
+
 export default {
-  data(){
-    return {
-    
-    }
-  },
-  mounted() {
-    
+  name: 'App',
+  components: {
+    HelloWorld,
   },
 };
 </script>
 
-<style scoped>
-*{
-  padding: 0 0;
-  margin: 0 0;
-  outline: none;
-}
-html,
-body, 
-#app{
-  width: 100%;
-  height: 100%;
-  color: brown;
-}
-/*修改滚动条样式*/
-*::-webkit-scrollbar {
-  width: 0px;
-  height: 0px;
-}
-*::-webkit-scrollbar-track {
-  background: rgba(0,0,0,0);
-  border-radius: 0px;
-}
-*::-webkit-scrollbar-thumb {
-  background: rgba(0,0,0,0);
-  border-radius: 0px;
-}
-*::-webkit-scrollbar-thumb:hover {
-  background: rgba(0,0,0,0);
-}
-*::-webkit-scrollbar-corner {
-  background: rgba(0,0,0,0);
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
 }
 </style>
